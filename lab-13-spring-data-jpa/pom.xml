@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>lab-13-jpa</module>
+		<module>lab-13-multi-database-vendor-switch</module>
     </modules>
 
 

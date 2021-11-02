@@ -20,18 +20,18 @@
 <!--        <module>lab-07</module>-->
 <!--        <module>lab-11-spring-data-redis</module>-->
 <!--        <module>lab-12-mybatis</module>-->
-<!--        <module>lab-13-spring-data-jpa</module>-->
+        <module>lab-13-spring-data-jpa</module>
 <!--        <module>lab-14-spring-jdbc-template</module>-->
 <!--        <module>lab-15-spring-data-es</module>-->
 <!--        <module>lab-16-spring-data-mongo</module>-->
-<!--        <module>lab-17</module>-->
+        <module>lab-17</module>
 <!--        <module>lab-18</module>-->
 <!--        <module>lab-19</module>-->
 <!--        <module>lab-20</module>-->
 <!--        <module>lab-21</module>-->
 <!--        <module>lab-22</module>-->
 <!--        <module>lab-23</module>-->
-        <module>lab-24</module>
+        <!--<module>lab-24</module>-->
 <!--        <module>lab-25</module>-->
 <!--        <module>lab-26</module>-->
 <!--        <module>lab-27</module>-->
@@ -111,7 +111,7 @@
 <!--        <module>labx-28</module>-->
 <!--        <module>labx-29-spring-cloud-consul-bus</module>-->
 <!--        <module>labx-30-spring-cloud-grpc</module>-->
-        <module>lab-71-http-debug</module>
+<!--        <module>lab-71-http-debug</module>-->
     </modules>
 
 </project>
