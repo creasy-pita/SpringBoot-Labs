@@ -1,5 +1,6 @@
 package cn.iocoder.springboot.lab17.dynamicdatasource.service;
 
+import cn.iocoder.springboot.lab17.dynamicdatasource.dataobject.pg.PgUser;
 import cn.iocoder.springboot.lab17.dynamicdatasource.entity.User;
 import cn.iocoder.springboot.lab17.dynamicdatasource.repository.pg.PostgresUserRepository;
 import org.springframework.aop.framework.AopContext;
@@ -26,5 +27,9 @@ public class PostgresUserService implements UserService {
         System.out.println(user);
     }
 
+    public void save(User user){
+        user = postgresUserRepository.save((PgUser)user);
+        System.out.println(user);
+    }
 
 }

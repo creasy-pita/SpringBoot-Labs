@@ -21,7 +21,7 @@ public class MysqlUser extends User {
     /**
      * 账号
      */
-    private String username;
+//    private String username;
 
     public Integer getId() {
         return id;
@@ -32,20 +32,20 @@ public class MysqlUser extends User {
         return this;
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public MysqlUser setUsername(String username) {
-        this.username = username;
-        return this;
-    }
+//    public String getUsername() {
+//        return username;
+//    }
+//
+//    public MysqlUser setUsername(String username) {
+//        this.username = username;
+//        return this;
+//    }
 
     @Override
     public String toString() {
         return "MysqlUser{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", username='" + super.getUsername() + '\'' +
                 '}';
     }
 
