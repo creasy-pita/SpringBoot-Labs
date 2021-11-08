@@ -43,7 +43,8 @@ public class JpaUsersConfig {
                 .dataSource(this.dataSource()) // 数据源
                 .properties(hibernateVendorProperties) // 获取并注入 Hibernate Vendor 相关配置
                 .packages("cn.iocoder.springboot.lab17.dynamicdatasource.dataobject") // 数据库实体 entity 所在包
-                .persistenceUnit("usersPersistenceUnit") // 设置持久单元的名字，需要唯一
+                .persistenceUnit("usersPersistenceUnitPg") // 设置持久单元的名字，需要唯一
+//                .persistenceUnit("usersPersistenceUnitMysql") // 设置持久单元的名字，需要唯一
                 .build();
     }
 

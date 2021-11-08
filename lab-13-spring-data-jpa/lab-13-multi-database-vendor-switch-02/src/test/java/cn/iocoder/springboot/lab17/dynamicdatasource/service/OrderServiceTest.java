@@ -23,12 +23,12 @@ public class OrderServiceTest {
     @Test
     public void testSave() {
         User user = new User();
-        user.setUsername("john2");
+        user.setUsername("john7");
         userService.save(user);
-
-        User user2 = new User();
-        user2.setUsername("john3");
-        userService.save(user2);
+//
+//        User user2 = new User();
+//        user2.setUsername("john3");
+//        userService.save(user2);
     }
 
 }

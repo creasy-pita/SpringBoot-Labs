@@ -1,0 +1,12 @@
+<entity-mappings version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm
+    http://xmlns.jcp.org/xml/ns/persistence/orm_2_1.xsd">
+    <entity class="cn.iocoder.springboot.lab17.dynamicdatasource.dataobject.User" name="users">
+        <attributes>
+            <id name="id">
+                <generated-value strategy="SEQUENCE" generator="users_id_seq"/>
+            </id>
+        </attributes>
+    </entity>
+</entity-mappings>
