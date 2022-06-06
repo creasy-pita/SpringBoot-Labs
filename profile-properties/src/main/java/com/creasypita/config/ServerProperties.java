@@ -11,6 +11,25 @@ import java.util.List;
 public class ServerProperties {
 
     private String email;
+    private String orgName;
+    private String author;
+
+    public String getOrgname() {
+        return orgName;
+    }
+
+    public void setOrgname(String orgName) {
+        this.orgName = orgName;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
+    }
+
     private List<Cluster> cluster = new ArrayList<>();
 
     public static class Cluster {
@@ -62,6 +81,8 @@ public class ServerProperties {
     public String toString() {
         return "ServerProperties{" +
                 "email='" + email + '\'' +
+                "orgName='" + orgName + '\'' +
+                "author='" + author + '\'' +
                 ", cluster=" + cluster +
                 '}';
     }
