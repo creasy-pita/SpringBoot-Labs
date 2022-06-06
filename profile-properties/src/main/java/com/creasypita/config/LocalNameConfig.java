@@ -9,9 +9,9 @@ import javax.annotation.PostConstruct;
 /**
  * Created by lujq on 5/26/2022.
  */
-@Profile("dev")
+@Profile("local")
 @Configuration
-public class NameConfig {
+public class LocalNameConfig {
 
     @PostConstruct
     public void ShowSomething(){
