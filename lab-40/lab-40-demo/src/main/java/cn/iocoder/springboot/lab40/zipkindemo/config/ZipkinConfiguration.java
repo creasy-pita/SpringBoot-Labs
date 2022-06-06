@@ -29,8 +29,11 @@ public class ZipkinConfiguration {
      * Configuration for how to send spans to Zipkin
      */
     @Bean
+//    public Sender sender() {
+//        return OkHttpSender.create("http://127.0.0.1:9411/api/v2/spans");
+//    }
     public Sender sender() {
-        return OkHttpSender.create("http://127.0.0.1:9411/api/v2/spans");
+        return OkHttpSender.create("http://192.168.209.209:9411/api/v2/spans");
     }
 
     /**

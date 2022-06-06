@@ -4,7 +4,8 @@ spring:
 
   # Zipkin 配置项，对应 ZipkinProperties 类
   zipkin:
-    base-url: http://127.0.0.1:9411 # Zipkin 服务的地址
+    base-url: http://192.168.209.209:9411 # Zipkin 服务的地址
+#    base-url: http://127.0.0.1:9411 # Zipkin 服务的地址
 
   # Spring Cloud Sleuth 配置项
   sleuth:
