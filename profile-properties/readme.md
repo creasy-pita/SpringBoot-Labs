@@ -17,10 +17,15 @@
   1 操作系统配置环境变量： ENV_PROFILE=dev
   2 application.properties文件中加入如下内容
 
+:bulb: 配置OS 环境变量后需要重启idea才能生效
+
 ```properties
 spring.profiles.active=${ENV_PROFILE}
 ```
 
+参考： 
+https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config
+https://www.cnblogs.com/huanzi-qch/p/10411581.html
 ## 2022-05-06
 参考： https://mkyong.com/spring-boot/spring-boot-profile-based-properties-and-yaml-example/
 
