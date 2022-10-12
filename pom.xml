@@ -25,7 +25,7 @@
 <!--        <module>lab-15-spring-data-es</module>-->
 <!--        <module>lab-16-spring-data-mongo</module>-->
 <!--        <module>lab-17</module>-->
-<!--        <module>lab-18</module>-->
+        <module>lab-18</module>
 <!--        <module>lab-19</module>-->
 <!--        <module>lab-20</module>-->
 <!--        <module>lab-21</module>-->
@@ -48,8 +48,8 @@
 <!--        <module>lab-38</module>-->
 <!--        <module>lab-39</module>-->
 <!--        <module>lab-40</module>-->
-        <module>profile-properties</module>
-        <module>PropertySources-lab</module>
+<!--        <module>profile-properties</module>-->
+<!--        <module>PropertySources-lab</module>-->
         <!--        <module>lab-41</module>-->
 <!--        <module>lab-42</module>-->
 <!--        <module>lab-43</module>-->
