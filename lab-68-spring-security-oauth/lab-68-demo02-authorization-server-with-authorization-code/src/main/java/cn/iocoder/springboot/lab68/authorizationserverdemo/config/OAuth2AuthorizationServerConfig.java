@@ -41,6 +41,7 @@ public class OAuth2AuthorizationServerConfig extends AuthorizationServerConfigur
                 .authorizedGrantTypes("authorization_code") // 授权码模式
                 .redirectUris("http://127.0.0.1:9090/callback") // 配置回调地址，选填。
                 .scopes("read_userinfo", "read_contacts") // 可授权的 Scope
+//                .autoApprove("read_userinfo", "read_contacts") // 自动授权，跳过用户选择授权的界面
 //                .and().withClient() // 可以继续配置新的 Client
                 ;
     }
